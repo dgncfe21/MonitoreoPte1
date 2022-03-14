@@ -52,14 +52,14 @@ var delay = 10; //milliseconds
 var i = 0;
 var deltaLat;
 var deltaLng;
-var position = [25.73697098, -100.36895766]; //lat lon CEID
+var position = [25.73697098, -100.36744400]; //lat lon CEID
 
 var datos;
 
 function initMap() { // Google Map Initialization... 
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 16,
-        center: new google.maps.LatLng(25.6643009, -100.2327063),
+        center: new google.maps.LatLng(25.73697098, -100.36744400),
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 }
