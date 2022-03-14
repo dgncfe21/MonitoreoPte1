@@ -52,7 +52,7 @@ var delay = 10; //milliseconds
 var i = 0;
 var deltaLat;
 var deltaLng;
-var position = [25.6643009, -100.2327063]; //lat lon CEID
+var position = [25.73697098, -100.36895766]; //lat lon CEID
 
 var datos;
 
