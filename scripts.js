@@ -10,14 +10,14 @@
 // };
 
 const config = {
-      apiKey: "AIzaSyBywYrvy3N3GrbJlpwKmfsB6CP9M8AYgqA",
-  authDomain: "medidores-poniente.firebaseapp.com",
-  databaseURL: "https://medidores-poniente.firebaseio.com",
-  projectId: "medidores-poniente",
-  storageBucket: "medidores-poniente.appspot.com",
-  messagingSenderId: "655762262275",
-  appId: "1:655762262275:web:dcc5b6ddfb59c4ca774136",
-  measurementId: "G-KZ7T8Z5EWK"
+      apiKey: "AIzaSyCAnem1AQOz9iWy2f8t8XDBKztK6kvThGs",
+  authDomain: "alumbradopte21.firebaseapp.com",
+  databaseURL: "https://alumbradopte21-default-rtdb.firebaseio.com",
+  projectId: "alumbradopte21",
+  storageBucket: "alumbradopte21.appspot.com",
+  messagingSenderId: "651178194520",
+  appId: "1:651178194520:web:987e5d240f8ab838d3fc2d",
+  measurementId: "G-VRH3BTZEQW"
 
   // apiKey: "AIzaSyBRVBJuvk-Mbxzv2DTx2a18jPaope7gBPY",
   // authDomain: "usrsmty.firebaseapp.com",
