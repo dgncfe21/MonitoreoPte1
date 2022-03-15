@@ -109,6 +109,34 @@ var myPolygon2 = new google.maps.Polygon({
      fillOpacity: 0.35
    });
 myPolygon2.setMap(map);
+      
+var polygoneCoords3 = [
+{lat:25.74495796, lng:-100.38725747},
+{lat:25.74620272, lng:-100.38831860},
+{lat:25.74446894, lng:-100.39036684},
+{lat:25.74350202,lng: -100.38944143},
+{lat:25.74351313, lng:-100.38862707},
+{lat:25.74494684, lng:-100.38724513}
+
+
+];
+
+var myPolygon3 = new google.maps.Polygon({
+     paths: polygoneCoords3,
+     strokeColor: '#FF0000',
+     strokeOpacity: 0.8,
+     strokeWeight: 2,
+     fillColor: '#FF0000',
+     fillOpacity: 0.35
+   });
+myPolygon3.setMap(map);      
+      
+      
+      
+      
+      
+      
+      
 }
 
 function transition(result, data) {
