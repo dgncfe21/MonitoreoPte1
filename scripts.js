@@ -243,7 +243,59 @@ var myPolygon7 = new google.maps.Polygon({
    });
 myPolygon7.setMap(map);      
       
-      
+var polygoneCoords8 = [
+
+
+
+{lat:25.73532105, lng:-100.39366653},
+{lat:25.73607573, lng:-100.39451827},
+{lat:25.73603800, lng:-100.39460205},
+{lat:25.73688072, lng:-100.39602628},
+{lat:25.73660400, lng:-100.39672443},
+{lat:25.73644049, lng:-100.39676632},
+{lat:25.73547199, lng:-100.39858151},
+{lat:25.73511980, lng:-100.39823243},
+{lat:25.73459152, lng:-100.39743654},
+{lat:25.73345949, lng:-100.39557946}
+
+
+
+];
+var myPolygon8 = new google.maps.Polygon({
+     paths: polygoneCoords8,
+     strokeColor: '#FF0000',
+     strokeOpacity: 0.8,
+     strokeWeight: 2,
+     fillColor: '#FF0000',
+     fillOpacity: 0.35
+   });
+myPolygon8.setMap(map);
+
+var polygoneCoords9 = [
+
+
+{lat:25.73314504, lng:-100.39179548},
+{lat:25.73372363, lng:-100.39182341},
+{lat:25.73472988, lng:-100.39321971},
+{lat:25.73523301, lng:-100.39341519},
+{lat:25.73533363, lng:-100.39372238},
+{lat:25.73347207, lng:-100.39556550},
+{lat:25.73415129, lng:-100.39673839},
+{lat:25.73400035, lng:-100.39682217},
+{lat:25.73251612, lng:-100.39464394},
+{lat:25.73314504, lng:-100.39182341}
+
+
+];
+var myPolygon9 = new google.maps.Polygon({
+     paths: polygoneCoords9,
+     strokeColor: '#FF0000',
+     strokeOpacity: 0.8,
+     strokeWeight: 2,
+     fillColor: '#FF0000',
+     fillOpacity: 0.35
+   });
+myPolygon9.setMap(map);      
       
 }
 
