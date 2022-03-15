@@ -218,7 +218,30 @@ var myPolygon6 = new google.maps.Polygon({
    });
 myPolygon6.setMap(map);      
       
-      
+var polygoneCoords7 = [
+
+
+{lat:25.74123257,lng: -100.38816510},
+{lat:25.74221361, lng:-100.38937988},
+{lat:25.74217587, lng:-100.38953348},
+{lat:25.74197464, lng:-100.38982670},
+{lat:25.74189917, lng:-100.38977085},
+{lat:25.74018864,lng: -100.39180945},
+{lat:25.73906924, lng:-100.39059466},
+{lat:25.73892460,lng: -100.39051787},
+{lat:25.74123257, lng:-100.38816510}
+
+
+];
+var myPolygon7 = new google.maps.Polygon({
+     paths: polygoneCoords7,
+     strokeColor: '#FF0000',
+     strokeOpacity: 0.8,
+     strokeWeight: 2,
+     fillColor: '#FF0000',
+     fillOpacity: 0.35
+   });
+myPolygon7.setMap(map);      
       
       
       
