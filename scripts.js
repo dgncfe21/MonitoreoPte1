@@ -129,7 +129,38 @@ var myPolygon3 = new google.maps.Polygon({
      fillColor: '#FF0000',
      fillOpacity: 0.35
    });
-myPolygon3.setMap(map);      
+myPolygon3.setMap(map);   
+
+var polygoneCoords4 = [
+
+
+{lat:25.74349090, lng:-100.38593722},
+{lat:25.74494684, lng:-100.38724513},
+{lat:25.74350202, lng:-100.38860239},
+{lat:25.74349646, lng:-100.38944760},
+{lat:25.74346867, lng:-100.38942292},
+{lat:25.74268513, lng:-100.39041619},
+{lat:25.74247951, lng:-100.39041002},
+{lat:25.74247951, lng:-100.39037301},
+{lat:25.74194047, lng:-100.38981159},
+{lat:25.74217387, lng:-100.38954014},
+{lat:25.74220166,lng: -100.38939207},
+{lat:25.74124583, lng:-100.38815203},
+{lat:25.74185156, lng:-100.38763997},
+{lat:25.74349090, lng:-100.38593105}
+
+
+];
+
+var myPolygon4 = new google.maps.Polygon({
+     paths: polygoneCoords4,
+     strokeColor: '#FF0000',
+     strokeOpacity: 0.8,
+     strokeWeight: 2,
+     fillColor: '#FF0000',
+     fillOpacity: 0.35
+   });
+myPolygon4.setMap(map);
       
       
       
