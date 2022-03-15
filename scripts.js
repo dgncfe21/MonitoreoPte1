@@ -162,7 +162,61 @@ var myPolygon4 = new google.maps.Polygon({
    });
 myPolygon4.setMap(map);
       
-      
+var polygoneCoords5 = [
+{lat:25.73903406, lng:-100.38766465},
+{lat:25.74032334, lng:-100.38906510},
+{lat:25.73892847, lng:-100.39049639},
+{lat:25.73820602, lng:-100.39106398},
+{lat:25.73752803, lng:-100.39015091},
+{lat:25.73664996, lng:-100.39197705},
+{lat:25.73636098, lng:-100.39219915},
+{lat:25.73583858, lng:-100.39155753},
+{lat:25.73583858, lng:-100.39126140},
+{lat:25.73657216, lng:-100.39161922},
+{lat:25.73737242, lng:-100.39002752},
+{lat:25.73727239, lng:-100.38997817},
+{lat:25.73689449, lng:-100.38997817},
+{lat:25.73608311, lng:-100.39038535},
+{lat:25.73586081, lng:-100.39007688},
+{lat:25.73789481, lng:-100.38857155},
+{lat:25.73815045, lng:-100.38831243},
+{lat:25.73901738, lng:-100.38768315}
+
+];
+var myPolygon5 = new google.maps.Polygon({
+     paths: polygoneCoords5,
+     strokeColor: '#FF0000',
+     strokeOpacity: 0.8,
+     strokeWeight: 2,
+     fillColor: '#FF0000',
+     fillOpacity: 0.35
+   });
+myPolygon5.setMap(map);
+
+var polygoneCoords6 = [
+
+
+{lat:25.74352980, lng:-100.39168092},
+{lat:25.74350757, lng:-100.39177963},
+{lat:25.74322972, lng:-100.39191535},
+{lat:25.74217387, lng:-100.39298883},
+{lat:25.74050672, lng:-100.39140946},
+{lat:25.74191269, lng:-100.38980542},
+{lat:25.74248507, lng:-100.39036684},
+{lat:25.74251286, lng:-100.39076168},
+{lat:25.74354092, lng:-100.39169326}
+
+
+];
+var myPolygon6 = new google.maps.Polygon({
+     paths: polygoneCoords6,
+     strokeColor: '#FF0000',
+     strokeOpacity: 0.8,
+     strokeWeight: 2,
+     fillColor: '#FF0000',
+     fillOpacity: 0.35
+   });
+myPolygon6.setMap(map);      
       
       
       
